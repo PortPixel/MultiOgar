@@ -92,8 +92,8 @@ function GameServer() {
         borderWidth: 14142,         // Map border size (Vanilla value: 14142)
         borderHeight: 14142,        // Map border size (Vanilla value: 14142)
         
-        foodMinSize: 50,            // Minimum food size (vanilla 10)
-        foodMaxSize: 70,            // Maximum food size (vanilla 20)
+        foodMinSize: 20,            // Minimum food size (vanilla 10)
+        foodMaxSize: 40,            // Maximum food size (vanilla 20)
         foodMinAmount: 1000,        // Minimum food cells on the map
         foodMaxAmount: 2000,        // Maximum food cells on the map
         foodSpawnAmount: 30,        // The number of food to spawn per interval
