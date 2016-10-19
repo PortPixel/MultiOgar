@@ -73,7 +73,7 @@ function GameServer() {
         serverBind: '0.0.0.0',      // Network interface binding
         serverTracker: 0,           // Set to 1 if you want to show your server on the tracker http://ogar.mivabe.nl/master
         serverGamemode: 2,          // Gamemode, 0 = FFA, 1 = Teams
-        serverBots: 0,              // Number of player bots to spawn
+        serverBots: 10,              // Number of player bots to spawn
         serverViewBaseX: 1920,      // Base client screen resolution. Used to calculate view area. Warning: high values may cause lag
         serverViewBaseY: 1080,      // min value is 1920x1080
         serverMinScale: 0.15,       // Min scale for player (low value leads to lags due to large visible area)
@@ -92,8 +92,8 @@ function GameServer() {
         borderWidth: 14142,         // Map border size (Vanilla value: 14142)
         borderHeight: 14142,        // Map border size (Vanilla value: 14142)
         
-        foodMinSize: 10,            // Minimum food size (vanilla 10)
-        foodMaxSize: 20,            // Maximum food size (vanilla 20)
+        foodMinSize: 50,            // Minimum food size (vanilla 10)
+        foodMaxSize: 70,            // Maximum food size (vanilla 20)
         foodMinAmount: 1000,        // Minimum food cells on the map
         foodMaxAmount: 2000,        // Maximum food cells on the map
         foodSpawnAmount: 30,        // The number of food to spawn per interval
