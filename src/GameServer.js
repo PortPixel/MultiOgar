@@ -118,7 +118,7 @@ function GameServer() {
         playerMaxCells: 16,         // Max cells the player is allowed to have
         playerSpeed: 1,             // Player speed multiplier
         playerDecayRate: .002,      // Amount of player cell size lost per second
-        playerRecombineTime: 30,    // Base time in seconds before a cell is allowed to recombine
+        playerRecombineTime: 0.3,    // Base time in seconds before a cell is allowed to recombine
         playerMaxNickLength: 15,    // Maximum nick length
         playerDisconnectTime: 60,   // The time in seconds it takes for a player cell to be removed after disconnection (If set to -1, cells are never removed)
         
