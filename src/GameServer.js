@@ -94,16 +94,16 @@ function GameServer() {
         
         foodMinSize: 20,            // Minimum food size (vanilla 10)
         foodMaxSize: 40,            // Maximum food size (vanilla 20)
-        foodMinAmount: 1000,        // Minimum food cells on the map
-        foodMaxAmount: 2000,        // Maximum food cells on the map
+        foodMinAmount: 750,        // Minimum food cells on the map
+        foodMaxAmount: 1500,        // Maximum food cells on the map
         foodSpawnAmount: 30,        // The number of food to spawn per interval
         foodMassGrow: 1,            // Enable food mass grow ?
         spawnInterval: 20,          // The interval between each food cell spawn in ticks (1 tick = 50 ms)
         
         virusMinSize: 100,          // Minimum virus size (vanilla 100)
         virusMaxSize: 140,          // Maximum virus size (vanilla 140)
-        virusMinAmount: 50,         // Minimum number of viruses on the map.
-        virusMaxAmount: 100,        // Maximum number of viruses on the map. If this number is reached, then ejected cells will pass through viruses.
+        virusMinAmount: 25,         // Minimum number of viruses on the map.
+        virusMaxAmount: 50,        // Maximum number of viruses on the map. If this number is reached, then ejected cells will pass through viruses.
         
         ejectSize: 38,              // Size of ejected cells (vanilla 38)
         ejectSizeLoss: 43,          // Eject size which will be substracted from player cell (vanilla 43?)
