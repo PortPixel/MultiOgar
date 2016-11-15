@@ -96,7 +96,7 @@ function GameServer() {
         foodMaxSize: 40,            // Maximum food size (vanilla 20)
         foodMinAmount: 750,        // Minimum food cells on the map
         foodMaxAmount: 1500,        // Maximum food cells on the map
-        foodSpawnAmount: 30,        // The number of food to spawn per interval
+        foodSpawnAmount: 1000,        // The number of food to spawn per interval
         foodMassGrow: 1,            // Enable food mass grow ?
         spawnInterval: 20,          // The interval between each food cell spawn in ticks (1 tick = 50 ms)
         
