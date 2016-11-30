@@ -89,8 +89,8 @@ function GameServer() {
         serverWelcome1: 'Welcome to MultiOgar server!',      // First server welcome message
         serverWelcome2: '',         // Second server welcome message (for info, etc)
         
-        borderWidth: 6000,         // Map border size (Vanilla value: 14142)
-        borderHeight: 6000,        // Map border size (Vanilla value: 14142)
+        borderWidth: 14142,         // Map border size (Vanilla value: 14142)
+        borderHeight: 14142,        // Map border size (Vanilla value: 14142)
         
         foodMinSize: 20,            // Minimum food size (vanilla 10)
         foodMaxSize: 40,            // Maximum food size (vanilla 20)
