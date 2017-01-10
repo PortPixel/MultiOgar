@@ -105,7 +105,7 @@ function GameServer() {
         virusMinAmount: 10,         // Minimum number of viruses on the map.
         virusMaxAmount: 20,        // Maximum number of viruses on the map. If this number is reached, then ejected cells will pass through viruses.
         
-        ejectSize: 380,              // Size of ejected cells (vanilla 38)
+        ejectSize: 38,              // Size of ejected cells (vanilla 38)
         ejectSizeLoss: 43,          // Eject size which will be substracted from player cell (vanilla 43?)
         ejectDistance: 780,         // vanilla 780
         ejectCooldown: 3,           // min ticks between ejects
