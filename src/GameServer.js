@@ -115,7 +115,7 @@ function GameServer() {
         playerMaxSize: 1500,        // Maximum size of the player cell (mass = 1500*1500/100 = 22500)
         playerMinSplitSize: 60,     // Minimum player cell size allowed to split (mass = 60*60/100 = 36) 
         playerStartSize: 64,        // Start size of the player cell (mass = 64*64/100 = 41)
-        playerMaxCells: 16,         // Max cells the player is allowed to have
+        playerMaxCells: 64,         // Max cells the player is allowed to have default 16
         playerSpeed: 1,             // Player speed multiplier
         playerDecayRate: .002,      // Amount of player cell size lost per second
         playerRecombineTime: 0.03,    // Base time in seconds before a cell is allowed to recombine
