@@ -108,14 +108,14 @@ function GameServer() {
         ejectSize: 70,              // Size of ejected cells (vanilla 38)
         ejectSizeLoss: 43,          // Eject size which will be substracted from player cell (vanilla 43?)
         ejectDistance: 780,         // vanilla 780
-        ejectCooldown: 1,           // min ticks between ejects
+        ejectCooldown: 0,           // min ticks between ejects
         ejectSpawnPlayer: 1,        // if 1 then player may be spawned from ejected mass
         
         playerMinSize: 32,          // Minimym size of the player cell (mass = 32*32/100 = 10.24)
         playerMaxSize: 1500,        // Maximum size of the player cell (mass = 1500*1500/100 = 22500)
         playerMinSplitSize: 60,     // Minimum player cell size allowed to split (mass = 60*60/100 = 36) 
         playerStartSize: 64,        // Start size of the player cell (mass = 64*64/100 = 41)
-        playerMaxCells: 256,         // Max cells the player is allowed to have default 16
+        playerMaxCells: 512,         // Max cells the player is allowed to have default 16
         playerSpeed: 1,             // Player speed multiplier
         playerDecayRate: .002,      // Amount of player cell size lost per second
         playerRecombineTime: 0.03,    // Base time in seconds before a cell is allowed to recombine
